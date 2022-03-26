@@ -27,6 +27,11 @@ Initialize the dropdown modal
 - title:String - You can add a title to the modal
 - modal_class:String - add a custom class/classes to the modal 
 
+### Functions
+- Refresh - $('select').dropdown_modal('refresh') Update the dropdown options
+- Disabled - $('select').dropdown_modal('disable_button') Disable dropdown button
+- Enable - $('select').dropdown_modal('enable_button') Enable dropdown button
+
 ### Screenshot
 ![](./screenshots/1.png)
 ![](./screenshots/2.png)
@@ -34,6 +39,7 @@ Initialize the dropdown modal
 ### TODO
 - Custom in-style width of the dropdown
 - Custon in-style font size
+- Optgroup
 
 ### Dependecies
 - bootbox jstark518/bootbox
