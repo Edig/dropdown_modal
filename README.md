@@ -23,14 +23,17 @@ Note: every class you add to the select, will be replicated to the dropdown_moda
 Initialize the dropdown modal
 `$('select').dropdown_modal(options = {})`
 
+To get the selected value, just do it as you normally would do it with a normal select
+`$('select').val()`
+
 ### Options
 - title:String - You can add a title to the modal
 - modal_class:String - add a custom class/classes to the modal 
 
 ### Functions
-- Refresh - $('select').dropdown_modal('refresh') Update the dropdown options
-- Disabled - $('select').dropdown_modal('disable_button') Disable dropdown button
-- Enable - $('select').dropdown_modal('enable_button') Enable dropdown button
+- Refresh - `$('select').dropdown_modal('refresh')` Update the dropdown options
+- Disable - `$('select').dropdown_modal('disable_button')` Disable dropdown button
+- Enable - `$('select').dropdown_modal('enable_button')` Enable dropdown button
 
 ### Screenshot
 ![](./screenshots/1.png)
