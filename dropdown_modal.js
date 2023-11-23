@@ -64,7 +64,7 @@ jQuery.fn.extend({
          */
         const open_modal = _ => {
             //Load bootbox dependecy
-            const bootbox = require('bootbox')
+            // const bootbox = require('bootbox')
             
             //Create modal message
             message_modal = $(`<ul class="list-group"></ul>`)
@@ -118,7 +118,7 @@ jQuery.fn.extend({
             message_modal.find(`li#${id}`).addClass('active')
 
             //Select the option on the select
-            this.find(`option[value='${id}']`).prop('selected', true)
+            this.find(`option[value='${id}']`).prop('selected', true).trigger('change')
 
             //Change button text
             $(`#${this.attr('id')}-dropdown-modal-btn`).text(this.find(`option[value='${this.val()}']`).text())
