@@ -1,6 +1,6 @@
 {
   "name": "dropdown_modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make a dropdown with a modal view, ideal for touchscreens",
   "main": "dropdown_modal.js",
   "files": [
